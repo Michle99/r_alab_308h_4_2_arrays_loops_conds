@@ -17,3 +17,29 @@ for (let i = 0; i <= 20; i++) {
 
 document.getElementById("easy_going").innerHTML = easy_going_num;
 
+
+
+////////////////////////////////
+// Fizz Buzz
+////////////////////////////////
+
+function fizzbuzz() {
+  let fizz_buzz_num = document.getElementById("fizz_buzz");
+  let result = "";
+
+  for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      result = "FizzBuzz";
+    } else if (i % 5 === 0) {
+      result = "Buzz";
+    } else if (i % 3 === 0) {
+      result = "Fizz";
+    } else {
+      result = i;
+    }
+    fizz_buzz_num.innerHTML += "<p>" + result + "</p>";
+  }
+}
+
+fizzbuzz();
+
