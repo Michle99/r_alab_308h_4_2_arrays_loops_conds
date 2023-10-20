@@ -203,7 +203,7 @@ console.log("Final results: ", sliced_array);
 
 // Index of Fast and Furious
 console.log(
-  "Fast and Furious index: ",
+  "Fast and Furious index for sliced_array: ",
   sliced_array.indexOf("Fast and Furious")
 );
 
@@ -211,7 +211,7 @@ console.log(
 // Index of Fast and Furious
 let fast_furious_index = favMovies.indexOf("Fast and Furious");
 document.getElementById("fast_furious_ind").innerHTML = fast_furious_index;
-console.log("Movie name: ", favMovies[13]);
+console.log("Checking Movie name @ index: ", favMovies[13]);
 
 
 ////////////////////////////////
