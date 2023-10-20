@@ -12,11 +12,20 @@ document.getElementById("app").innerHTML = `
 let easy_going_num = "";
 
 for (let i = 0; i <= 20; i++) {
-  easy_going_num += "The number is: " + i + "<br>";
+  easy_going_num += "The number is: " + i + "";
 }
 
 document.getElementById("easy_going").innerHTML = easy_going_num;
 
+////////////////////////////////
+// Get Even
+////////////////////////////////
+let get_even_num = "";
+
+for (let i = 0; i <= 200; i += 2) {
+  get_even_num += "The numbers is: " + i + "<br>";
+}
+document.getElementById("get_even").innerHTML = get_even_num;
 
 
 ////////////////////////////////
@@ -176,7 +185,7 @@ console.log("Index of django:", djangoIndx);
 spliced_array = favMovies.splice(djangoIndx, 1, "Avatar");
 console.log("Spliced Django Unchained: ", spliced_array);
 document.getElementById("splice_array").innerHTML = spliced_array;
-console.log("Add Avatar: ", favMovies);
+console.log("Added Avatar: ", favMovies);
 
 // 9.Did this permanently alter our array?
 // Array was permanently altered: The value @ index 14 was removed and replaced by "Avatar"
