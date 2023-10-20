@@ -1,4 +1,3 @@
-import "./styles.css";
 
 document.getElementById("app").innerHTML = `
 <h1>Arrays, Loops and conditional assessment</h1>
