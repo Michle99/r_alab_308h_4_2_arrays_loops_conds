@@ -236,3 +236,34 @@ console.log("Change Neff ---> No One: ", whereIsWaldo);
 
 // Access and console.log "Waldo".
 console.log("Log Waldo: ", whereIsWaldo[2][1][1]);
+
+
+
+
+
+////////////////////////////////
+// Excited Kitten
+////////////////////////////////
+
+const evenPhrases = [
+  "...human... why you taking pictures of me...",
+  "...the catnip made me do it...",
+  "...why does the red dot always get away...?"
+];
+
+// Function to get a random even phrase
+function getRandomEvenPhrase() {
+  const randomIndex = Math.floor(Math.random() * evenPhrases.length);
+  return evenPhrases[randomIndex];
+}
+
+// Loop to log the phrases
+for (let i = 1; i <= 20; i++) {
+  console.log("Love me, pet me! HSSSSSS!");
+
+  // Check if the number is even
+  if (i % 2 === 0) {
+    const evenPhrase = getRandomEvenPhrase();
+    console.log(evenPhrase);
+  }
+}
