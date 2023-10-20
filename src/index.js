@@ -1,6 +1,6 @@
 
 document.getElementById("app").innerHTML = `
-<h1>Arrays, Loops and conditional assessment</h1>
+<h1 style="background-color:gray;">Arrays, Loops and conditional assessment</h1>
 <div>
   <h4>Solutions are on the page and the rest in the console.</h4>
 </div>
