@@ -6,7 +6,9 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 
-/*** Easy Going */
+////////////////////////////////
+// Easy Going
+////////////////////////////////
 let easy_going_num = "";
 
 for (let i = 0; i <= 20; i++) {
@@ -14,6 +16,8 @@ for (let i = 0; i <= 20; i++) {
 }
 
 document.getElementById("easy_going").innerHTML = easy_going_num;
+
+
 
 ////////////////////////////////
 // Get Even
@@ -24,6 +28,9 @@ for (let i = 0; i <= 200; i += 2) {
   get_even_num += "The numbers is: " + i + "<br>";
 }
 document.getElementById("get_even").innerHTML = get_even_num;
+
+
+
 
 ////////////////////////////////
 // Fizz Buzz
@@ -48,6 +55,9 @@ function fizzbuzz() {
 }
 
 fizzbuzz();
+
+
+
 
 ////////////////////////////////
 // Wild Wild Life
@@ -86,6 +96,8 @@ wolfy_new_name = wolfy[0];
 document.getElementById("wolfy_new_name").innerHTML =
   "Wolfy new name: " + wolfy_new_name;
 
+
+
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
@@ -98,6 +110,8 @@ for (let i of ninja_turtle) {
 }
 
 document.getElementById("ninja_new_name").innerHTML = ninja_names;
+
+
 
 ////////////////////////////////
 // Methods, Revisited
@@ -213,6 +227,8 @@ let fast_furious_index = favMovies.indexOf("Fast and Furious");
 document.getElementById("fast_furious_ind").innerHTML = fast_furious_index;
 console.log("Movie name: ", favMovies[13]);
 
+
+
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
@@ -235,6 +251,8 @@ console.log("Change Neff ---> No One: ", whereIsWaldo);
 
 // Access and console.log "Waldo".
 console.log("Log Waldo: ", whereIsWaldo[2][1][1]);
+
+
 
 ////////////////////////////////
 // Excited Kitten
@@ -266,33 +284,7 @@ for (let i = 1; i <= 20; i++) {
 ////////////////////////////////
 // Find the Median
 ////////////////////////////////
-const nums = [
-  14,
-  11,
-  16,
-  15,
-  13,
-  16,
-  15,
-  17,
-  19,
-  11,
-  12,
-  14,
-  19,
-  11,
-  15,
-  17,
-  11,
-  18,
-  12,
-  17,
-  12,
-  71,
-  18,
-  15,
-  12
-];
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 // console.log(nums)
 // Expected output: 15
 function median_index(nums) {
