@@ -81,3 +81,18 @@ wolfy_new_name = wolfy[0];
 
 document.getElementById("wolfy_new_name").innerHTML =
   "Wolfy new name: " + wolfy_new_name;
+
+
+
+////////////////////////////////
+// Yell at the Ninja Turtles
+////////////////////////////////
+let ninja_turtle = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+let ninja_names = "";
+
+for (let i of ninja_turtle) {
+  ninja_names += i.toUpperCase() + ", ";
+}
+
+document.getElementById("ninja_new_name").innerHTML = ninja_names;
