@@ -214,3 +214,25 @@ document.getElementById("fast_furious_ind").innerHTML = fast_furious_index;
 console.log("Movie name: ", favMovies[13]);
 
 
+////////////////////////////////
+// Where is Waldo
+////////////////////////////////
+const whereIsWaldo = [
+  ["Timmy", "Frank"],
+  "Eggbert",
+  ["Lucinda", "Jacc", "Neff", "Snoop"],
+  ["Petunia", ["Baked Goods", "Waldo"]]
+];
+
+console.log("Index of Eggbert: ", whereIsWaldo.indexOf("Eggbert"));
+// Remove "Eggbert"
+console.log("Remove Eggbert: ", whereIsWaldo.splice(1, 1));
+console.log("After removing eggbert", whereIsWaldo);
+
+// Change "Neff" to "No One"
+console.log("Where is Neff: ", whereIsWaldo[1][2]);
+whereIsWaldo[1][2] = "No One";
+console.log("Change Neff ---> No One: ", whereIsWaldo);
+
+// Access and console.log "Waldo".
+console.log("Log Waldo: ", whereIsWaldo[2][1][1]);
