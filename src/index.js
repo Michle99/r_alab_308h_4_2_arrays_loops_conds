@@ -290,4 +290,4 @@ function median_index(nums) {
   return median;
 }
 
-console.log(median_index(nums));
+console.log("Median of the array: ", median_index(nums));
