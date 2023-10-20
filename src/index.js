@@ -12,7 +12,7 @@ document.getElementById("app").innerHTML = `
 let easy_going_num = "";
 
 for (let i = 0; i <= 20; i++) {
-  easy_going_num += "The number is: " + i + "";
+  easy_going_num += "The number is: " + i + "<br>";
 }
 
 document.getElementById("easy_going").innerHTML = easy_going_num;
